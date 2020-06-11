@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width:90%;
+  height: 30%;
+}
+
+th, td {
+  padding: 15px;
+  width: 30%;
+  height: 25%;
+  text-align: center;
+}
+
+.header {
+  background-color:black;
+  padding: 15px;
+  text-align: left;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 70px;
+}
+
+.sidebar {
+  background-color: lightgrey;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  
+}
+
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+}
+
+
+.sidebar a:hover{
+  background-color: black;
+  width=200px;
+  display:block;
+  color: white;
+}
+
+div.content {
+  margin-left: 300px;
+  margin-top: 100px;
+  padding: 0px 16px;
+  height: 1000px;
+}
+
+body {
+  background-image: url('https://hougumlaw.com/wp-content/uploads/2016/05/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg');
+  background-position: 200px 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 style="color:white;">Mail.com</h1>
+</div>
+<div class="sidebar">
+  <a href="#home">Inbox</a>
+  <a href="#news">Sent</a>
+  <a href="#contact">Drafts</a>
+  <a href="#about">Trash</a>
+</div>
+
+<div class="content">
+  <table>
+    <tr>
+    <th id="c1">From</th>
+    <th id="c2">Subject</th> 
+    <th id="c3">Date</th>
+  </tr>
+  <tr>
+    <td>Prakriti Sankhla</td>
+    <td>Handling pressure situation</td>
+    <td>2020/01/02</td>
+  </tr>
+  <tr>
+    <td>Adarsh Chouhan</td>
+    <td>Health training advisory</td>
+    <td>2020/02/02</td>
+  </tr>
+  <tr>
+    <td>Saurav Gautam</td>
+    <td>How to be a playboi</td>
+    <td>2020/02/03</td>
+  </tr>
+  <tr>
+    <td>Saurav Gautam</td>
+    <td>How to be a playboi</td>
+    <td>2020/02/03</td>
+  </tr>
+  <tr>
+    <td>Saurav Gautam</td>
+    <td>How to be a playboi</td>
+    <td>2020/02/03</td>
+  </tr>
+  <tr>
+    <td>Saurav Gautam</td>
+    <td>How to be a playboi</td>
+    <td>2020/02/03</td>
+  </tr>
+  <tr>
+    <td>Saurav Gautam</td>
+    <td>How to be a playboi</td>
+    <td>2020/02/03</td>
+  </tr>
+  <tr>
+    <td>Saurav Gautam</td>
+    <td>How to be a playboi</td>
+    <td>2020/02/03</td>
+  </tr>
+  <tr>
+    <td>Saurav Gautam</td>
+    <td>How to be a playboi</td>
+    <td>2020/02/03</td>
+  </tr>
+  <tr>
+    <td>Saurav Gautam</td>
+    <td>How to be a playboi</td>
+    <td>2020/02/03</td>
+  </tr>
+  <tr>
+    <td>Saurav Gautam</td>
+    <td>How to be a playboi</td>
+    <td>2020/02/03</td>
+  </tr>
+  <tr>
+    <td>Saurav Gautam</td>
+    <td>How to be a playboi</td>
+    <td>2020/02/03</td>
+  </tr>
+  <tr>
+    <td>Saurav Gautam</td>
+    <td>How to be a playboi</td>
+    <td>2020/02/03</td>
+  </tr>
+  <tr>
+    <td>Saurav Gautam</td>
+    <td>How to be a playboi</td>
+    <td>2020/02/03</td>
+  </tr>
+</table>
+
+<div class="footer">
+  <img src="https://rukminim1.flixcart.com/flap/844/140/image/12d6237d120ff381.jpg?q=50" alt="image not available" width="100%" height="80px">
+</div>
+
+</body>
+</html>
